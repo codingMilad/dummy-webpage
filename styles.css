@@ -1,0 +1,128 @@
+.header {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.logo {
+    color: #F9FAF8;
+}
+
+.links-wrapper {
+    display: flex;
+    gap: 15px;
+    color: #F9FAF8;
+}
+
+.top-middle {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap: 10px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.image img {
+    height: 400px;
+    width: auto;
+}
+
+.box {
+    outline: 2px solid #3882F6;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid #3882F6;
+}
+
+.bot-middle > p {
+    display: flex;
+    justify-content: center;
+}
+
+.boxes {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.box-container p {
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.header-text {
+    display: flex;
+    word-wrap: break-word;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.header-text > h1 {
+    width: 100%;
+    max-width: 1050px;
+}
+
+.header-text > p {
+    width: 100%;
+    max-width: 1050px;
+    text-align: right;
+}
+
+.call-to-action {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    gap: 20px;
+}
+/*
+.call-to-action h3,
+.call-to-action p {
+    width: 100%;
+    max-width: 1050px;
+}*/
+
+
+.call-to-action .sign {
+    border: 2px solid white;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 53%;
+    max-width: 1050px;
+}
+
+.text-container h3,
+.text-container p {
+    margin: 5px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d3c50;
+    color: white;
+    height: 100px;
+}
